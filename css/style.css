@@ -1,0 +1,20 @@
+html {
+    box-sizing: border-box;
+}
+
+*, 
+::after, 
+::before {
+    box-sizing: inherit;
+}
+
+body {
+    background-image: url("../images/background.png");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: inherit;
+}
+
+main {
+    display: block;
+}
