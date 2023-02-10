@@ -51,7 +51,8 @@
               <button class="task__button task__button--remove js-remove">
                 🗑
               </button>
-            </li>`;
+            </li>
+            `;
         };
 
         document.querySelector(".js-tasks").innerHTML = htmlString;
