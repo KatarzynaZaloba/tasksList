@@ -1,20 +1,15 @@
 html {
     box-sizing: border-box;
 }
-
-*, ::after, ::before {
-    box-sizing: inherit;
+*,  ::before,  ::after {
+    box-sizing: inherit
 }
 
 body {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'montserrat', sans-serif;
     background: #eee;
     background-image: url("../images/background.png");
     background-position: top;
     background-repeat: no-repeat;
     background-size: inherit;
-}
-
-main {
-    display: block;
 }
