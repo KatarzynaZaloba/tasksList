@@ -2,13 +2,13 @@ html {
     box-sizing: border-box;
 }
 
-*, 
-::after, 
-::before {
+*, ::after, ::before {
     box-sizing: inherit;
 }
 
 body {
+    font-family: 'Montserrat', sans-serif;
+    background: #eee;
     background-image: url("../images/background.png");
     background-position: top;
     background-repeat: no-repeat;
