@@ -1,6 +1,6 @@
 .section {
     margin: 10px 0;
-    background: #ffffff61;
+    background: white;
     box-shadow: 0 0 5px #ddd;
 }
 
@@ -9,10 +9,8 @@
     padding: 20px;
     margin: 0;
     border-bottom: 1px solid #ddd;
-    background: white;
 }
 
 .section__body {
     padding: 20px;
-    background: #ffffff61;;
 }

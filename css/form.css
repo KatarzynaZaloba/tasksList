@@ -11,21 +11,23 @@ form {
 }
 
 .form__input {
-    padding:10px;
-    border: 1 solid #ddd;
+    padding: 10px;
+    border: 1px solid #ddd;
 }
 
 .form__button {
     padding: 10px;
-    background-color: hwb(313 11% 45%);
-    border: none;
+    background: hsl(180, 100%, 25%);
     color: white;
+    border: none;
+    cursor: pointer;
+    transition: 0.5s;
 }
 
 .form__button:hover {
-    background: hwb(313 11% 55%);
+    background: hsl(180, 100%, 30%);
 }
 
 .form__button:active {
-    background: hwb(313 11% 65%);
+    background: hsl(180, 100%, 35%);
 }
