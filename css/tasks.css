@@ -1,3 +1,7 @@
+.tasks {
+    padding: 0;
+}
+
 .tasks__list {
     list-style: none;
     margin: 0;
