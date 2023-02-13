@@ -1,11 +1,7 @@
 .tasks {
-    padding: 0;
-}
-
-.tasks__list {
     list-style: none;
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
 }
 
 .tasks__item {
@@ -15,10 +11,14 @@
     align-items: center;
     padding: 10px;
     border-bottom: 1px solid #ddd;
+    /* Keyword values */
+    word-break: break-word;
+    /* deprecated */
 }
+
 .tasks__item--hidden {
     display: none;
-} 
+}
 
 .tasks__content--done {
     text-decoration: line-through;
@@ -29,32 +29,30 @@
     color: white;
     width: 30px;
     height: 30px;
-    padding: 0;
-    transition: 0.5s;
-    cursor: pointer;
+    padding: 0px;
+    transition: background 0.3s;
 }
 
-.tasks__button {
-    background: hsl(120, 60%, 35%);
+.tasks__button--toggleDone {
+    background: hsl(120, 61%, 35%);
 }
 
-.tasks__button:hover {
-    background: hsl(120, 60%, 40%);
+.tasks__button--toggleDone:hover {
+    background: hsl(120, 61%, 40%);
 }
 
-.tasks__button:active {
-    background: hsl(120, 60%, 45%);
+.tasks__button--toggleDone:active {
+    background: hsl(120, 61%, 45%);
 }
 
 .tasks__button--remove {
-    background: hsl(350, 80%, 45%);
-}
-
-.tasks__button--remove:active {
-    background: hsl(350, 80%, 50%);
+    background: hsl(0, 83%, 47%);
 }
 
 .tasks__button--remove:hover {
-    background: hsl(350, 60%, 55%);
+    background: hsl(348, 83%, 52%);
 }
 
+.tasks__button--remove:active {
+    background: hsl(348, 83%, 57%);
+}

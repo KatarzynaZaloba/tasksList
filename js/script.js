@@ -3,10 +3,7 @@
     let hideDoneTasks = false;
   
     const removeTask = (taskIndex) => {
-      tasks = [
-        ...tasks.slice(0, taskIndex), 
-        ...tasks.slice(taskIndex + 1)
-    ];
+      tasks = [...tasks.slice(0, taskIndex), ...tasks.slice(taskIndex + 1)];
       render();
     };
   
@@ -24,10 +21,7 @@
     };
   
     const addNewTask = (newTaskContent) => {
-      tasks = [
-        ...tasks, 
-        { content: newTaskContent }
-    ];
+      tasks = [...tasks, { content: newTaskContent }];
       render();
     };
   
@@ -156,4 +150,4 @@
     };
   
     init();
-  };
+  }
