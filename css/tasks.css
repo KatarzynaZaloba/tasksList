@@ -50,3 +50,7 @@
 .task__button--remove:active {
     background: hsl(350, 80%, 50%);
 }
+
+.task__button--remove:hover {
+    background: hsl(350, 60%, 55%);
+}
