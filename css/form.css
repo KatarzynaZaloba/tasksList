@@ -18,7 +18,7 @@
 
 .from__button {
     padding: 10px;
-    background-color: teal;
+    background-color: hwb(313 11% 45%);
     color: white;
     border: none;
     transition: 0.5s;
@@ -26,10 +26,10 @@
 }
 
 .from__button:hover {
-    background-color: hsl(180, 100%, 30%);
+    background-color: hwb(313 11% 35%);
     transform: scale(1.05);
 }
 
 .from__button:active {
-    background-color: hsl(180, 100%, 40%); 
+    background-color: hwb(313 11% 25%);
 }

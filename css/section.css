@@ -1,11 +1,12 @@
 .section {
     margin: 10px 0;
-    background: white;
+    background: #ffffff61;
     box-shadow: 0 0 5px #ddd;
  }
  
  .section__header {
     border-bottom: 1px solid #ddd;
+    background: #c9387438;
     display: grid;
     grid-template-columns: auto auto;
     grid-gap: 20px;

@@ -8,5 +8,8 @@ html {
 
 body {
     font-family: 'Montserrat', sans-serif;
-    background-color: hsl(0, 0%, 90%);
+    background-image: url("../images/background.png");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: inherit;
 }

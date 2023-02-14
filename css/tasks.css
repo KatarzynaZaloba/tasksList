@@ -59,5 +59,4 @@
 
 .tasks__button--remove:active {
     background-color: hsl(0, 100%, 70%);
-    border: 1px solid black;
 }
